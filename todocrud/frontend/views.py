@@ -7,4 +7,4 @@ def index(request):
 
 class TodoDetailView(DetailView):
     model = Todo
-    template_name = 'fronted/index.html'
+    template_name = 'frontend/index.html'

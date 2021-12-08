@@ -33,7 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'frontend.apps.FrontendConfig', # Added
     'todo.apps.TodoConfig', # Added
-    'rest_framework', #
+    'rest_framework', # Added
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
