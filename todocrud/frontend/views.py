@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic.detail import DetailView
-from todos.models import Todo
+from todo.models import Todo
 
 def index(request):
     return render(request, 'frontend/index.html')
